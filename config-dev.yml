@@ -1,14 +1,2 @@
-server:
-  port: 3344
-
-spring:
-  application:
-    name:  cloud-config-center
-  cloud:
-    config:
-      server:
-        git:
-          uri: git@github.com:AL923/springcloud-config.git
-          search-paths:
-          - springcloud-config
-      label: master
+config:
+  info:"master branch,springcloud-config/config-dev.yml version=1"
